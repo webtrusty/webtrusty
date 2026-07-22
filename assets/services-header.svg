@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="180" viewBox="0 0 1600 180">
+
+  <defs>
+
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="100%" stop-color="#091A36"/>
+    </linearGradient>
+
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F600"/>
+      <stop offset="50%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#3B82F600"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40"
+            fill="none"
+            stroke="#1E3A8A"
+            stroke-opacity=".08"/>
+    </pattern>
+
+  </defs>
+
+  <!-- Background -->
+
+  <rect width="1600" height="180" rx="20" fill="url(#bg)"/>
+  <rect width="1600" height="180" fill="url(#grid)"/>
+
+  <!-- Moving Scan -->
+
+  <rect
+      x="-250"
+      y="0"
+      width="180"
+      height="180"
+      fill="#3B82F610"
+      transform="skewX(-25)">
+
+      <animate
+          attributeName="x"
+          values="-250;1750"
+          dur="8s"
+          repeatCount="indefinite"/>
+
+  </rect>
+
+  <!-- Top -->
+
+  <line
+      x1="120"
+      y1="45"
+      x2="1480"
+      y2="45"
+      stroke="url(#line)"
+      stroke-width="2"/>
+
+  <!-- Bottom -->
+
+  <line
+      x1="120"
+      y1="135"
+      x2="1480"
+      y2="135"
+      stroke="url(#line)"
+      stroke-width="2"/>
+
+  <!-- Workflow -->
+
+  <rect x="180" y="72" width="90" height="36" rx="8"
+        fill="#111827"
+        stroke="#3B82F6"/>
+
+  <rect x="340" y="72" width="90" height="36" rx="8"
+        fill="#111827"
+        stroke="#3B82F6"/>
+
+  <rect x="1170" y="72" width="90" height="36" rx="8"
+        fill="#111827"
+        stroke="#3B82F6"/>
+
+  <rect x="1330" y="72" width="90" height="36" rx="8"
+        fill="#111827"
+        stroke="#3B82F6"/>
+
+  <!-- Connections -->
+
+  <line x1="270" y1="90" x2="340" y2="90"
+        stroke="#60A5FA"
+        stroke-opacity=".5"/>
+
+  <line x1="1260" y1="90" x2="1330" y2="90"
+        stroke="#60A5FA"
+        stroke-opacity=".5"/>
+
+  <!-- Pulse -->
+
+  <circle cx="305" cy="90" r="4" fill="#60A5FA">
+
+    <animate
+      attributeName="r"
+      values="4;7;4"
+      dur="2.2s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <circle cx="1295" cy="90" r="4" fill="#60A5FA">
+
+    <animate
+      attributeName="r"
+      values="4;7;4"
+      dur="2.8s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <!-- Title -->
+
+  <text
+      x="800"
+      y="82"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="38"
+      font-weight="700"
+      fill="#FFFFFF">
+
+      SERVICES
+
+  </text>
+
+  <!-- Subtitle -->
+
+  <text
+      x="800"
+      y="114"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="16"
+      fill="#60A5FA">
+
+      Design • Development • Automation • AI
+
+  </text>
+
+</svg>
