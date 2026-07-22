@@ -1,1 +1,200 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg">
 
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#050816"/>
+<stop offset="100%" stop-color="#08142d"/>
+</linearGradient>
+
+<linearGradient id="blue">
+<stop offset="0%" stop-color="#2563eb"/>
+<stop offset="100%" stop-color="#60a5fa"/>
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="25"/>
+</filter>
+
+</defs>
+
+<rect width="1200" height="760" rx="30" fill="url(#bg)"/>
+
+<!-- Background Glow -->
+
+<circle cx="170" cy="120" r="130" fill="#2563eb22" filter="url(#glow)">
+<animate attributeName="r"
+values="130;160;130"
+dur="8s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1030" cy="620" r="180" fill="#2563eb22" filter="url(#glow)">
+<animate attributeName="r"
+values="180;220;180"
+dur="10s"
+repeatCount="indefinite"/>
+</circle>
+
+<!-- Title -->
+
+<text
+x="70"
+y="80"
+fill="white"
+font-size="42"
+font-family="Segoe UI"
+font-weight="700">
+
+SERVICES
+
+</text>
+
+<text
+x="70"
+y="120"
+fill="#8ab4ff"
+font-size="20"
+font-family="Segoe UI">
+
+Production Ready Development
+
+</text>
+
+<!-- CARD 1 -->
+
+<rect
+x="70"
+y="180"
+width="500"
+height="220"
+rx="20"
+fill="#0b1224"
+stroke="#2563eb"/>
+
+<text x="110" y="240" fill="white" font-size="28">Premium Websites</text>
+
+<text x="110" y="285" fill="#9fb8ff" font-size="18">
+
+• Landing Pages
+
+</text>
+
+<text x="110" y="320" fill="#9fb8ff" font-size="18">
+
+• Company Websites
+
+</text>
+
+<text x="110" y="355" fill="#9fb8ff" font-size="18">
+
+• Portfolio Design
+
+</text>
+
+<!-- CARD 2 -->
+
+<rect
+x="630"
+y="180"
+width="500"
+height="220"
+rx="20"
+fill="#0b1224"
+stroke="#2563eb"/>
+
+<text x="670" y="240" fill="white" font-size="28">
+
+Frontend Engineering
+
+</text>
+
+<text x="670" y="285" fill="#9fb8ff" font-size="18">
+
+• React
+
+</text>
+
+<text x="670" y="320" fill="#9fb8ff" font-size="18">
+
+• Next.js
+
+</text>
+
+<text x="670" y="355" fill="#9fb8ff" font-size="18">
+
+• TypeScript
+
+</text>
+
+<!-- CARD 3 -->
+
+<rect
+x="70"
+y="450"
+width="500"
+height="220"
+rx="20"
+fill="#0b1224"
+stroke="#2563eb"/>
+
+<text x="110" y="510" fill="white" font-size="28">
+
+Backend Development
+
+</text>
+
+<text x="110" y="555" fill="#9fb8ff" font-size="18">
+
+• Node.js
+
+</text>
+
+<text x="110" y="590" fill="#9fb8ff" font-size="18">
+
+• Express
+
+</text>
+
+<text x="110" y="625" fill="#9fb8ff" font-size="18">
+
+• MongoDB
+
+</text>
+
+<!-- CARD 4 -->
+
+<rect
+x="630"
+y="450"
+width="500"
+height="220"
+rx="20"
+fill="#0b1224"
+stroke="#2563eb"/>
+
+<text x="670" y="510" fill="white" font-size="28">
+
+AI Integration
+
+</text>
+
+<text x="670" y="555" fill="#9fb8ff" font-size="18">
+
+• OpenAI
+
+</text>
+
+<text x="670" y="590" fill="#9fb8ff" font-size="18">
+
+• OpenRouter
+
+</text>
+
+<text x="670" y="625" fill="#9fb8ff" font-size="18">
+
+• Automation
+
+</text>
+
+</svg>
