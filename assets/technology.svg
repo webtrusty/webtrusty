@@ -1,1 +1,241 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720"
+xmlns="http://www.w3.org/2000/svg">
 
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#040816"/>
+<stop offset="100%" stop-color="#08142c"/>
+</linearGradient>
+
+<linearGradient id="blue">
+<stop offset="0%" stop-color="#2563eb"/>
+<stop offset="100%" stop-color="#60a5fa"/>
+</linearGradient>
+
+<filter id="blur">
+<feGaussianBlur stdDeviation="40"/>
+</filter>
+
+</defs>
+
+<rect width="1200" height="720" fill="url(#bg)" rx="26"/>
+
+<!-- Glow -->
+
+<circle cx="180" cy="120" r="120"
+fill="#2563eb33"
+filter="url(#blur)">
+<animate attributeName="r"
+values="120;145;120"
+dur="8s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1030" cy="560" r="150"
+fill="#2563eb22"
+filter="url(#blur)">
+<animate attributeName="r"
+values="150;180;150"
+dur="10s"
+repeatCount="indefinite"/>
+</circle>
+
+<!-- Heading -->
+
+<text
+x="70"
+y="80"
+fill="white"
+font-size="40"
+font-family="Segoe UI"
+font-weight="700">
+
+TECH STACK
+
+</text>
+
+<text
+x="70"
+y="118"
+fill="#8ab4ff"
+font-size="20"
+font-family="Segoe UI">
+
+Modern Development Ecosystem
+
+</text>
+
+<!-- Card -->
+
+<rect
+x="70"
+y="170"
+rx="18"
+width="1060"
+height="500"
+fill="#0f172acc"
+stroke="#2563eb"/>
+
+<!-- Languages -->
+
+<text
+x="110"
+y="230"
+fill="white"
+font-size="24">
+
+Languages
+
+</text>
+
+<rect x="110" y="260" width="260" height="10" rx="10" fill="#1e293b"/>
+
+<rect x="110" y="260" width="240" height="10" rx="10" fill="url(#blue)">
+
+<animate attributeName="width"
+
+values="0;240"
+
+dur="2s"
+
+fill="freeze"/>
+
+</rect>
+
+<text x="390" y="270" fill="#7dd3fc">
+
+95%
+
+</text>
+
+<!-- Frontend -->
+
+<text
+x="110"
+y="340"
+fill="white"
+font-size="24">
+
+Frontend
+
+</text>
+
+<rect x="110" y="370" width="260" height="10" rx="10" fill="#1e293b"/>
+
+<rect x="110" y="370" width="250" height="10" rx="10" fill="url(#blue)">
+
+<animate attributeName="width"
+
+values="0;250"
+
+dur="2.5s"
+
+fill="freeze"/>
+
+</rect>
+
+<text x="390" y="380" fill="#7dd3fc">
+
+98%
+
+</text>
+
+<!-- Backend -->
+
+<text
+x="110"
+y="450"
+fill="white"
+font-size="24">
+
+Backend
+
+</text>
+
+<rect x="110" y="480" width="260" height="10" rx="10" fill="#1e293b"/>
+
+<rect x="110" y="480" width="220" height="10" rx="10" fill="url(#blue)">
+
+<animate attributeName="width"
+
+values="0;220"
+
+dur="3s"
+
+fill="freeze"/>
+
+</rect>
+
+<text x="390" y="490" fill="#7dd3fc">
+
+90%
+
+</text>
+
+<!-- AI -->
+
+<text
+x="110"
+y="560"
+fill="white"
+font-size="24">
+
+AI Integration
+
+</text>
+
+<rect x="110" y="590" width="260" height="10" rx="10" fill="#1e293b"/>
+
+<rect x="110" y="590" width="210" height="10" rx="10" fill="url(#blue)">
+
+<animate attributeName="width"
+
+values="0;210"
+
+dur="3.5s"
+
+fill="freeze"/>
+
+</rect>
+
+<text x="390" y="600" fill="#7dd3fc">
+
+85%
+
+</text>
+
+<!-- Right Panel -->
+
+<rect
+x="650"
+y="220"
+width="380"
+height="340"
+rx="18"
+fill="#07111f"
+stroke="#2563eb"/>
+
+<text
+x="690"
+y="270"
+fill="white"
+font-size="24">
+
+Core Stack
+
+</text>
+
+<text x="690" y="320" fill="#8ab4ff">HTML • CSS • JavaScript</text>
+
+<text x="690" y="355" fill="#8ab4ff">TypeScript • React</text>
+
+<text x="690" y="390" fill="#8ab4ff">Next.js • TailwindCSS</text>
+
+<text x="690" y="425" fill="#8ab4ff">Node.js • Express</text>
+
+<text x="690" y="460" fill="#8ab4ff">MongoDB • REST APIs</text>
+
+<text x="690" y="495" fill="#8ab4ff">OpenAI • OpenRouter • Groq</text>
+
+</svg>
