@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="180" viewBox="0 0 1600 180">
+
+  <defs>
+
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="100%" stop-color="#0A1630"/>
+    </linearGradient>
+
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F600"/>
+      <stop offset="50%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#3B82F600"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40"
+            fill="none"
+            stroke="#1E3A8A"
+            stroke-opacity=".08"/>
+    </pattern>
+
+  </defs>
+
+  <!-- Background -->
+
+  <rect width="1600" height="180" rx="20" fill="url(#bg)"/>
+  <rect width="1600" height="180" fill="url(#grid)"/>
+
+  <!-- Scan -->
+
+  <rect x="-300"
+        y="0"
+        width="220"
+        height="180"
+        fill="#3B82F610"
+        transform="skewX(-25)">
+
+    <animate
+      attributeName="x"
+      values="-300;1800"
+      dur="7s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+  <!-- Lines -->
+
+  <line x1="120" y1="45" x2="1480" y2="45"
+        stroke="url(#line)"
+        stroke-width="2"/>
+
+  <line x1="120" y1="135" x2="1480" y2="135"
+        stroke="url(#line)"
+        stroke-width="2"/>
+
+  <!-- Left Node -->
+
+  <circle cx="240" cy="90" r="6" fill="#3B82F6">
+    <animate attributeName="r"
+             values="6;9;6"
+             dur="2.4s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Right Node -->
+
+  <circle cx="1360" cy="90" r="6" fill="#60A5FA">
+    <animate attributeName="r"
+             values="6;9;6"
+             dur="2.8s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Title -->
+
+  <text
+      x="800"
+      y="84"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="38"
+      font-weight="700"
+      fill="#FFFFFF">
+
+      ABOUT
+
+  </text>
+
+  <!-- Subtitle -->
+
+  <text
+      x="800"
+      y="116"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="16"
+      fill="#60A5FA">
+
+      Developer Profile
+
+  </text>
+
+</svg>
