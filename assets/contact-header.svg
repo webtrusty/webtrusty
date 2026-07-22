@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="180" viewBox="0 0 1600 180">
+
+  <defs>
+
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="100%" stop-color="#0A1730"/>
+    </linearGradient>
+
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F600"/>
+      <stop offset="50%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#3B82F600"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path
+        d="M40 0H0V40"
+        fill="none"
+        stroke="#1E3A8A"
+        stroke-opacity=".08"/>
+    </pattern>
+
+  </defs>
+
+  <!-- Background -->
+
+  <rect width="1600" height="180" rx="20" fill="url(#bg)"/>
+  <rect width="1600" height="180" fill="url(#grid)"/>
+
+  <!-- Moving Scan -->
+
+  <rect
+      x="-260"
+      y="0"
+      width="180"
+      height="180"
+      fill="#3B82F610"
+      transform="skewX(-25)">
+
+      <animate
+          attributeName="x"
+          values="-260;1750"
+          dur="8s"
+          repeatCount="indefinite"/>
+
+  </rect>
+
+  <!-- Top Line -->
+
+  <line
+      x1="120"
+      y1="45"
+      x2="1480"
+      y2="45"
+      stroke="url(#line)"
+      stroke-width="2"/>
+
+  <!-- Bottom Line -->
+
+  <line
+      x1="120"
+      y1="135"
+      x2="1480"
+      y2="135"
+      stroke="url(#line)"
+      stroke-width="2"/>
+
+  <!-- Left Network -->
+
+  <circle cx="220" cy="90" r="7" fill="#3B82F6"/>
+  <circle cx="300" cy="65" r="5" fill="#60A5FA"/>
+  <circle cx="300" cy="115" r="5" fill="#60A5FA"/>
+
+  <line x1="220" y1="90" x2="300" y2="65"
+        stroke="#60A5FA"
+        stroke-opacity=".45"/>
+
+  <line x1="220" y1="90" x2="300" y2="115"
+        stroke="#60A5FA"
+        stroke-opacity=".45"/>
+
+  <!-- Right Network -->
+
+  <circle cx="1380" cy="90" r="7" fill="#3B82F6"/>
+  <circle cx="1300" cy="65" r="5" fill="#60A5FA"/>
+  <circle cx="1300" cy="115" r="5" fill="#60A5FA"/>
+
+  <line x1="1380" y1="90" x2="1300" y2="65"
+        stroke="#60A5FA"
+        stroke-opacity=".45"/>
+
+  <line x1="1380" y1="90" x2="1300" y2="115"
+        stroke="#60A5FA"
+        stroke-opacity=".45"/>
+
+  <!-- Pulse Animation -->
+
+  <circle cx="220" cy="90" r="7" fill="#3B82F6">
+
+    <animate
+        attributeName="r"
+        values="7;11;7"
+        dur="2.5s"
+        repeatCount="indefinite"/>
+
+    <animate
+        attributeName="opacity"
+        values="1;.45;1"
+        dur="2.5s"
+        repeatCount="indefinite"/>
+
+  </circle>
+
+  <circle cx="1380" cy="90" r="7" fill="#3B82F6">
+
+    <animate
+        attributeName="r"
+        values="7;11;7"
+        dur="2.8s"
+        repeatCount="indefinite"/>
+
+    <animate
+        attributeName="opacity"
+        values="1;.45;1"
+        dur="2.8s"
+        repeatCount="indefinite"/>
+
+  </circle>
+
+  <!-- Center Title -->
+
+  <text
+      x="800"
+      y="82"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="38"
+      font-weight="700"
+      fill="#FFFFFF">
+
+      LET'S CONNECT
+
+  </text>
+
+  <!-- Subtitle -->
+
+  <text
+      x="800"
+      y="114"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="16"
+      fill="#60A5FA">
+
+      Open for Freelance • Collaborations • Opportunities
+
+  </text>
+
+</svg>
