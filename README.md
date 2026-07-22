@@ -92,7 +92,7 @@ Building fast, scalable, and visually refined digital products with a focus on p
 
 <p align="center">
 
-<img src="./assets/section-title.svg" width="100%" alt="About"/>
+<img src="./assets/about-header.svg" width="100%" alt="About"/>
 
 </p>
 
