@@ -1,175 +1,283 @@
-<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520">
 
 <defs>
 
 <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
 <stop offset="0%" stop-color="#050816"/>
-<stop offset="100%" stop-color="#08122d"/>
+<stop offset="100%" stop-color="#0A1732"/>
 </linearGradient>
 
-<linearGradient id="line" x1="0%" y1="0%" x2="100%">
-<stop offset="0%" stop-color="#3b82f6"/>
-<stop offset="100%" stop-color="#60a5fa"/>
+<linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#2563EB"/>
+<stop offset="100%" stop-color="#60A5FA"/>
 </linearGradient>
 
-<filter id="blur">
-<feGaussianBlur stdDeviation="50"/>
-</filter>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+<path d="M40 0H0V40" fill="none" stroke="#1E3A8A" stroke-opacity=".08"/>
+</pattern>
+
+<linearGradient id="scan" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#FFFFFF00"/>
+<stop offset="50%" stop-color="#60A5FA22"/>
+<stop offset="100%" stop-color="#FFFFFF00"/>
+</linearGradient>
 
 </defs>
 
-<rect width="1200" height="420" rx="30" fill="url(#bg)"/>
+<!-- Card -->
 
-<circle cx="150" cy="120" r="120" fill="#2563eb22" filter="url(#blur)">
-<animate attributeName="r"
-values="120;145;120"
-dur="7s"
-repeatCount="indefinite"/>
-</circle>
+<rect x="20" y="20" width="1560" height="480" rx="26"
+fill="url(#bg)"
+stroke="url(#border)"
+stroke-width="2"/>
 
-<circle cx="1030" cy="330" r="150" fill="#2563eb22" filter="url(#blur)">
-<animate attributeName="r"
-values="150;180;150"
-dur="8s"
-repeatCount="indefinite"/>
-</circle>
+<rect x="20" y="20" width="1560" height="480" rx="26"
+fill="url(#grid)"/>
 
-<g stroke="#3b82f620">
-
-<line x1="0" y1="60" x2="1200" y2="60"/>
-<line x1="0" y1="120" x2="1200" y2="120"/>
-<line x1="0" y1="180" x2="1200" y2="180"/>
-<line x1="0" y1="240" x2="1200" y2="240"/>
-<line x1="0" y1="300" x2="1200" y2="300"/>
-<line x1="0" y1="360" x2="1200" y2="360"/>
-
-<line x1="100" y1="0" x2="100" y2="420"/>
-<line x1="200" y1="0" x2="200" y2="420"/>
-<line x1="300" y1="0" x2="300" y2="420"/>
-<line x1="400" y1="0" x2="400" y2="420"/>
-<line x1="500" y1="0" x2="500" y2="420"/>
-<line x1="600" y1="0" x2="600" y2="420"/>
-<line x1="700" y1="0" x2="700" y2="420"/>
-<line x1="800" y1="0" x2="800" y2="420"/>
-<line x1="900" y1="0" x2="900" y2="420"/>
-<line x1="1000" y1="0" x2="1000" y2="420"/>
-<line x1="1100" y1="0" x2="1100" y2="420"/>
-
-</g>
-
-<text x="70" y="95"
-fill="white"
-font-size="42"
-font-family="Segoe UI"
-font-weight="700">
-ABOUT
-</text>
-
-<text x="70" y="145"
-fill="#8ab4ff"
-font-size="22"
-font-family="Segoe UI">
-Developer Profile
-</text>
-
-<line
-x1="70"
-y1="175"
-x2="310"
-y2="175"
-stroke="url(#line)"
-stroke-width="3"/>
-
-<g>
+<!-- Moving Scan -->
 
 <rect
-x="690"
-y="60"
-width="420"
-height="270"
-rx="18"
-fill="#0f172acc"
-stroke="#2563eb"/>
+x="-300"
+y="20"
+width="220"
+height="480"
+fill="url(#scan)"
+transform="skewX(-25)">
+
+<animate
+attributeName="x"
+values="-300;1850"
+dur="8s"
+repeatCount="indefinite"/>
+
+</rect>
+
+<!-- Top -->
 
 <text
-x="720"
-y="105"
-fill="#7dd3fc"
+x="90"
+y="82"
+font-family="Arial"
 font-size="18"
-font-family="Consolas">
-const developer = {
+font-weight="700"
+fill="#60A5FA">
+
+PROFILE
+
 </text>
 
+<!-- Status -->
+
+<circle cx="1420" cy="74" r="7" fill="#22C55E">
+
+<animate
+attributeName="r"
+values="7;10;7"
+dur="2.2s"
+repeatCount="indefinite"/>
+
+<animate
+attributeName="opacity"
+values="1;.45;1"
+dur="2.2s"
+repeatCount="indefinite"/>
+
+</circle>
+
 <text
-x="740"
-y="145"
-fill="white"
+x="1440"
+y="80"
+font-family="Arial"
 font-size="17"
-font-family="Consolas">
-name: "WebTrusty",
+fill="#94A3B8">
+
+Available for Freelance
+
+</text>
+
+<!-- Name -->
+
+<text
+x="90"
+y="150"
+font-family="Arial"
+font-size="44"
+font-weight="700"
+fill="#FFFFFF">
+
+Sahib Laskar
+
 </text>
 
 <text
-x="740"
-y="180"
-fill="white"
-font-size="17"
-font-family="Consolas">
-role: "Full-Stack",
+x="90"
+y="190"
+font-family="Arial"
+font-size="22"
+fill="#60A5FA">
+
+Full-Stack Developer
+
 </text>
 
-<text
-x="740"
-y="215"
-fill="white"
-font-size="17"
-font-family="Consolas">
-experience: "3+ Years",
-</text>
+<!-- Divider -->
 
-<text
-x="740"
-y="250"
-fill="white"
-font-size="17"
-font-family="Consolas">
-focus: Premium UI
-</text>
+<line
+x1="90"
+y1="230"
+x2="1510"
+y2="230"
+stroke="#2563EB"
+stroke-opacity=".25"/>
 
-<text
-x="720"
-y="290"
-fill="#7dd3fc"
+<!-- Stats -->
+
+<text x="170" y="285"
+font-family="Arial"
 font-size="18"
-font-family="Consolas">
-}
+fill="#94A3B8">
+
+EXPERIENCE
+
 </text>
 
-</g>
+<text x="170" y="325"
+font-family="Arial"
+font-size="36"
+font-weight="700"
+fill="#FFFFFF">
 
-<g>
+3+
 
-<circle cx="120" cy="310" r="6" fill="#3b82f6">
-<animate attributeName="cy"
-values="310;295;310"
-dur="2.5s"
-repeatCount="indefinite"/>
-</circle>
+</text>
 
-<circle cx="170" cy="340" r="5" fill="#60a5fa">
-<animate attributeName="cy"
-values="340;325;340"
-dur="2s"
-repeatCount="indefinite"/>
-</circle>
+<text x="430" y="285"
+font-family="Arial"
+font-size="18"
+fill="#94A3B8">
 
-<circle cx="215" cy="300" r="4" fill="#93c5fd">
-<animate attributeName="cy"
-values="300;285;300"
-dur="3s"
-repeatCount="indefinite"/>
-</circle>
+PROJECTS
 
-</g>
+</text>
+
+<text x="430" y="325"
+font-family="Arial"
+font-size="36"
+font-weight="700"
+fill="#FFFFFF">
+
+25+
+
+</text>
+
+<text x="700" y="285"
+font-family="Arial"
+font-size="18"
+fill="#94A3B8">
+
+SPECIALIZATION
+
+</text>
+
+<text x="700" y="325"
+font-family="Arial"
+font-size="28"
+font-weight="700"
+fill="#FFFFFF">
+
+Full-Stack
+
+</text>
+
+<text x="1100" y="285"
+font-family="Arial"
+font-size="18"
+fill="#94A3B8">
+
+FOCUS
+
+</text>
+
+<text x="1100" y="325"
+font-family="Arial"
+font-size="28"
+font-weight="700"
+fill="#FFFFFF">
+
+AI • SaaS
+
+</text>
+
+<!-- Divider -->
+
+<line
+x1="90"
+y1="360"
+x2="1510"
+y2="360"
+stroke="#2563EB"
+stroke-opacity=".25"/>
+
+<!-- Highlights -->
+
+<circle cx="110" cy="405" r="4" fill="#60A5FA"/>
+<text x="130" y="412"
+font-family="Arial"
+font-size="18"
+fill="#E2E8F0">
+
+Modern Web Development
+
+</text>
+
+<circle cx="110" cy="442" r="4" fill="#60A5FA"/>
+<text x="130" y="449"
+font-family="Arial"
+font-size="18"
+fill="#E2E8F0">
+
+Premium UI / UX Engineering
+
+</text>
+
+<circle cx="620" cy="405" r="4" fill="#60A5FA"/>
+<text x="640" y="412"
+font-family="Arial"
+font-size="18"
+fill="#E2E8F0">
+
+AI Automation
+
+</text>
+
+<circle cx="620" cy="442" r="4" fill="#60A5FA"/>
+<text x="640" y="449"
+font-family="Arial"
+font-size="18"
+fill="#E2E8F0">
+
+Performance Optimization
+
+</text>
+
+<circle cx="1100" cy="405" r="4" fill="#60A5FA"/>
+<text x="1120" y="412"
+font-family="Arial"
+font-size="18"
+fill="#E2E8F0">
+
+Clean Architecture
+
+</text>
+
+<circle cx="1100" cy="442" r="4" fill="#60A5FA"/>
+<text x="1120" y="449"
+font-family="Arial"
+font-size="18"
+fill="#E2E8F0">
+
+Scalable Solutions
+
+</text>
 
 </svg>
