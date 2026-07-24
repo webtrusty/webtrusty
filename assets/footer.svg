@@ -1,94 +1,266 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="240" viewBox="0 0 1600 240">
+<svg xmlns="http://www.w3.org/2000/svg"
+width="1600"
+height="260"
+viewBox="0 0 1600 260">
 
-  <defs>
+<defs>
 
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050816"/>
-      <stop offset="100%" stop-color="#0A1226"/>
-    </linearGradient>
+<linearGradient id="bg"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="100%">
 
-    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#3B82F600"/>
-      <stop offset="50%" stop-color="#3B82F6"/>
-      <stop offset="100%" stop-color="#3B82F600"/>
-    </linearGradient>
+<stop offset="0%" stop-color="#050816"/>
+<stop offset="100%" stop-color="#08152D"/>
 
-  </defs>
+</linearGradient>
 
-  <!-- Background -->
+<linearGradient id="line">
 
-  <rect width="1600" height="240" fill="url(#bg)"/>
+<stop offset="0%" stop-color="#2563EB00"/>
+<stop offset="50%" stop-color="#3B82F6"/>
+<stop offset="100%" stop-color="#2563EB00"/>
 
-  <!-- Divider -->
+</linearGradient>
 
-  <line
-      x1="160"
-      y1="50"
-      x2="1440"
-      y2="50"
-      stroke="url(#line)"
-      stroke-width="2"/>
+<linearGradient id="accent">
 
-  <!-- Logo -->
+<stop offset="0%" stop-color="#60A5FA"/>
+<stop offset="100%" stop-color="#2563EB"/>
 
-  <circle
-      cx="800"
-      cy="100"
-      r="28"
-      fill="#0F172A"
-      stroke="#3B82F6"
-      stroke-width="2"/>
+</linearGradient>
 
-  <text
-      x="800"
-      y="109"
-      text-anchor="middle"
-      font-size="22"
-      font-family="Arial"
-      font-weight="700"
-      fill="#FFFFFF">
+<filter id="blur">
+<feGaussianBlur stdDeviation="60"/>
+</filter>
 
-      W
+</defs>
 
-  </text>
+<!-- Background -->
 
-  <!-- Brand -->
+<rect
+width="1600"
+height="260"
+fill="url(#bg)"/>
 
-  <text
-      x="800"
-      y="165"
-      text-anchor="middle"
-      font-size="30"
-      font-family="Arial"
-      font-weight="700"
-      fill="#FFFFFF">
+<!-- Aurora -->
 
-      WEBTRUSTY
+<circle
+cx="250"
+cy="110"
+r="170"
+fill="#2563EB18"
+filter="url(#blur)">
 
-  </text>
+<animate
+attributeName="cx"
+values="250;340;250"
+dur="12s"
+repeatCount="indefinite"/>
 
-  <text
-      x="800"
-      y="192"
-      text-anchor="middle"
-      font-size="15"
-      font-family="Arial"
-      fill="#94A3B8">
+</circle>
 
-      Crafting Premium Digital Experiences
+<circle
+cx="1360"
+cy="170"
+r="190"
+fill="#60A5FA15"
+filter="url(#blur)">
 
-  </text>
+<animate
+attributeName="cy"
+values="170;130;170"
+dur="13s"
+repeatCount="indefinite"/>
 
-  <text
-      x="800"
-      y="215"
-      text-anchor="middle"
-      font-size="13"
-      font-family="Arial"
-      fill="#64748B">
+</circle>
 
-      Designed by WebTrusty
+<!-- Divider -->
 
-  </text>
+<line
+x1="140"
+y1="55"
+x2="1460"
+y2="55"
+stroke="url(#line)"
+stroke-width="2"/>
+
+<!-- Logo -->
+
+<g>
+
+<circle
+cx="800"
+cy="105"
+r="34"
+fill="#0F172A"
+stroke="url(#accent)"
+stroke-width="2"/>
+
+<text
+x="800"
+y="116"
+text-anchor="middle"
+font-family="Inter"
+font-size="28"
+font-weight="800"
+fill="#FFFFFF">
+
+W
+
+</text>
+
+<animateTransform
+attributeName="transform"
+type="translate"
+values="0 0;0 -3;0 0"
+dur="3s"
+repeatCount="indefinite"/>
+
+</g>
+
+<!-- Orbit -->
+
+<circle
+cx="800"
+cy="105"
+r="48"
+fill="none"
+stroke="#3B82F655"
+stroke-width="1.5">
+
+<animate
+attributeName="r"
+values="48;56;48"
+dur="4s"
+repeatCount="indefinite"/>
+
+<animate
+attributeName="stroke-opacity"
+values=".6;.15;.6"
+dur="4s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- Brand -->
+
+<text
+x="800"
+y="165"
+text-anchor="middle"
+font-family="Inter"
+font-size="30"
+font-weight="700"
+fill="#FFFFFF">
+
+WEBTRUSTY
+
+</text>
+
+<text
+x="800"
+y="193"
+text-anchor="middle"
+font-family="Inter"
+font-size="16"
+fill="#94A3B8">
+
+Building Premium Web Experiences with Modern Technologies
+
+</text>
+
+<!-- Footer -->
+
+<text
+x="800"
+y="225"
+text-anchor="middle"
+font-family="Inter"
+font-size="13"
+letter-spacing="4"
+fill="#60A5FA">
+
+DESIGNED • DEVELOPED • MAINTAINED BY WEBTRUSTY
+
+</text>
+
+<!-- Left Particle -->
+
+<circle
+cx="500"
+cy="105"
+r="2"
+fill="#60A5FA">
+
+<animate
+attributeName="cx"
+values="500;540;500"
+dur="6s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<circle
+cx="610"
+cy="140"
+r="2"
+fill="#3B82F6">
+
+<animate
+attributeName="cy"
+values="140;120;140"
+dur="5s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- Right Particle -->
+
+<circle
+cx="1100"
+cy="105"
+r="2"
+fill="#60A5FA">
+
+<animate
+attributeName="cx"
+values="1100;1060;1100"
+dur="6s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<circle
+cx="990"
+cy="145"
+r="2"
+fill="#3B82F6">
+
+<animate
+attributeName="cy"
+values="145;120;145"
+dur="5s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- Scan Light -->
+
+<rect
+x="-220"
+y="53"
+width="180"
+height="4"
+fill="#60A5FA22">
+
+<animate
+attributeName="x"
+values="-220;1820"
+dur="8s"
+repeatCount="indefinite"/>
+
+</rect>
 
 </svg>
