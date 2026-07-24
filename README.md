@@ -1,14 +1,15 @@
-<!-- ========================= -->
+<!-- ===================================================== -->
 <!-- HERO -->
-<!-- ========================= -->
+<!-- ===================================================== -->
 
 <p align="center">
 
-<img src="./assets/hero-banner.svg" width="100%" alt="WebTrusty Hero Banner"/>
+<img
+src="./assets/hero-banner.svg"
+alt="WebTrusty Hero Banner"
+width="100%"/>
 
 </p>
-
-<br>
 
 <h1 align="center">
 
@@ -18,179 +19,307 @@ WebTrusty
 
 <p align="center">
 
-<strong>Premium Web Experiences • Full-Stack Development • Modern UI Engineering</strong>
+<b>Frontend Developer</b> • <b>UI/UX Designer</b> • <b>Modern Web Experiences</b>
 
 </p>
 
 <p align="center">
 
-Building fast, scalable, and visually refined digital products with a focus on performance, usability, and clean engineering.
+I build premium, fast and interactive websites with a strong focus on
+clean UI, smooth animations and exceptional user experience.
 
 </p>
-
-<br>
-
-<p align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3200&pause=1200&color=60A5FA&center=true&vCenter=true&width=900&lines=Frontend+Specialist;Full-Stack+Developer;UI%2FUX+Focused+Engineer;Building+Modern+SaaS+Products;Performance+First+Development" alt="Typing Animation"/>
-
-</p>
-
-<br>
 
 <p align="center">
 
 <a href="https://webtrusty.vercel.app">
-<img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-
-<a href="mailto:sahiblaskar003@gmail.com">
-<img src="https://img.shields.io/badge/Email-1F2937?style=for-the-badge&logo=gmail&logoColor=EA4335"/>
-</a>
-
-<a href="https://linkedin.com/in/web-trusty/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<img
+src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 
 <a href="https://github.com/webtrusty">
-<img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white"/>
+<img
+src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
-<a href="https://x.com/webtrusty_">
-<img src="https://img.shields.io/badge/X-111827?style=for-the-badge&logo=x&logoColor=white"/>
-</a>
-
-<a href="https://instagram.com/webtrusty/">
-<img src="https://img.shields.io/badge/Instagram-111827?style=for-the-badge&logo=instagram&logoColor=E4405F"/>
-</a>
-
-<a href="https://discord.gg/tNRsbgAwEF">
-<img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
+<a href="mailto:sahiblaskar003@gmail.com">
+<img
+src="https://img.shields.io/badge/Email-0F172A?style=for-the-badge&logo=gmail&logoColor=EA4335"/>
 </a>
 
 </p>
-
-<br>
 
 <p align="center">
 
-<img src="https://komarev.com/ghpvc/?username=webtrusty&style=for-the-badge&label=PROFILE+VIEWS&color=2563EB"/>
+<img
+src="./assets/divider.svg"
+width="100%"/>
 
 </p>
 
-<br>
-
-<p align="center">
-
-<img src="./assets/divider.svg" width="100%" alt="Divider"/>
-
-</p>
-
-<!-- ========================= -->
+<!-- ===================================================== -->
 <!-- ABOUT -->
-<!-- ========================= -->
+<!-- ===================================================== -->
 
 <p align="center">
 
-<img src="./assets/about-header.svg" width="100%" alt="About"/>
+<img
+src="./assets/about-header.svg"
+alt="About Header"
+width="100%"/>
 
 </p>
 
-<br>
-
 <p align="center">
 
-<img src="./assets/about-card.svg" width="100%" alt="About Card"/>
+<img
+src="./assets/about-card.svg"
+alt="About WebTrusty"
+width="100%"/>
 
 </p>
 
-<br>
+## 💡 About Me
 
-<table align="center" width="100%">
+I'm a **Frontend Developer** focused on creating modern, responsive and high-performance web experiences.
 
-<tr>
+My primary expertise is building beautiful interfaces with **React**, **TypeScript**, **Next.js**, **GSAP** and modern frontend technologies. I also work with backend technologies when needed to deliver complete web applications.
 
-<td width="50%" valign="top">
+I enjoy transforming ideas into products that are fast, visually polished and user-friendly.
 
-### Profile
+---
 
-I'm **Sahib Laskar**, a Full-Stack Developer from India focused on building fast, scalable, and visually refined digital products.
+### What I Focus On
 
-My work combines clean architecture, modern UI engineering, and performance-first development to deliver premium user experiences.
+- 🎨 Premium UI & UX Design
+- ⚡ High Performance Frontend Development
+- 📱 Fully Responsive Websites
+- ✨ Smooth Animations & Micro Interactions
+- 🤖 AI Integration & Automation
+- 🚀 Production Ready Deployments
 
-I enjoy transforming complex ideas into elegant web applications with attention to accessibility, responsiveness, and maintainability.
+---
 
-</td>
+### Current Goals
 
-<td width="50%" valign="top">
-
-### Current Focus
-
-```text
-• Modern SaaS Applications
-
-• Premium Portfolio Websites
-
-• AI Integrations & Automation
-
-• UI/UX Engineering
-
-• Performance Optimization
-
-• Full-Stack Development
-```
-
-</td>
-
-</tr>
-
-</table>
-
-<br>
+- Building premium web products
+- Exploring AI-powered applications
+- Contributing to open source
+- Learning advanced frontend architecture
+- Creating better developer experiences
 
 <p align="center">
+
+<img
+src="./assets/divider.svg"
+width="100%"/>
+
+</p>
+
+<!-- ===================================================== -->
+<!-- TECHNOLOGY -->
+<!-- ===================================================== -->
+
+<p align="center">
+
+<img
+src="./assets/technology-header.svg"
+alt="Technology Header"
+width="100%"/>
+
+</p>
+
+<p align="center">
+
+<img
+src="./assets/technology-card.svg"
+alt="Technology Card"
+width="100%"/>
+
+</p>
+
+## ⚙ Tech Stack
+
+### Frontend
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vite,tailwind"/>
+
+</p>
+
+---
+
+### Backend
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,firebase"/>
+
+</p>
+
+---
+
+### UI / Design
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=figma"/>
+
+</p>
+
+- GSAP
+- Three.js
+- Responsive Design
+- Glassmorphism
+- Modern UI Systems
+
+---
+
+### AI & Automation
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=python"/>
+
+</p>
+
+- OpenAI API
+- Groq API
+- OpenRouter
+- AI Automation
+- Prompt Engineering
+
+---
+
+### Tools
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,netlify,npm"/>
+
+</p>
+
+---
+
+## Development Philosophy
+
+> Build fast.  
+> Design clean.  
+> Animate with purpose.  
+> Ship quality.
+
+<p align="center">
+
+<img
+src="./assets/divider.svg"
+width="100%"/>
+
+</p>
+
+<!-- ===================================================== -->
+<!-- PROJECTS -->
+<!-- ===================================================== -->
+
+<p align="center">
+
+<img
+src="./assets/projects-header.svg"
+alt="Projects Header"
+width="100%"/>
+
+</p>
+
+<p align="center">
+
+<img
+src="./assets/projects-card.svg"
+alt="Projects Card"
+width="100%"/>
+
+</p>
+
+## 🚀 Featured Projects
 
 <table>
 
 <tr>
 
-<td align="center">
+<td width="50%">
 
-<strong>Experience</strong>
+### 🌐 WebTrusty Portfolio
 
-<br>
+Modern portfolio built with a premium UI, smooth animations and responsive layouts.
 
-3+ Years
+**Highlights**
 
-</td>
+- React
+- TypeScript
+- GSAP
+- Glassmorphism
+- Responsive Design
 
-<td align="center">
+**Live**
 
-<strong>Projects</strong>
-
-<br>
-
-25+
-
-</td>
-
-<td align="center">
-
-<strong>Clients</strong>
-
-<br>
-
-Worldwide
+https://webtrusty.vercel.app
 
 </td>
 
-<td align="center">
+<td width="50%">
 
-<strong>Location</strong>
+### 🏨 Aura Hotel
 
-<br>
+Luxury hotel landing page focused on premium visuals, booking experience and elegant UI.
 
-Kolkata, India
+**Highlights**
+
+- React
+- Modern UI
+- Responsive
+- Performance Optimized
+
+**Live**
+
+https://aura-hotel-demo.netlify.app/
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%">
+
+### 🗼 Vintage Paris
+
+Creative landing page inspired by luxury European aesthetics with modern frontend animations.
+
+**Highlights**
+
+- React
+- GSAP
+- Responsive
+- Premium Visual Design
+
+**Live**
+
+https://vintage-paris-demo.netlify.app/
+
+</td>
+
+<td width="50%">
+
+### 🤖 Discord Bots & AI
+
+Advanced Discord bots featuring moderation, automation, music, AI integrations and custom systems.
+
+**Highlights**
+
+- discord.js
+- Node.js
+- AI APIs
+- Automation
+- Custom Commands
 
 </td>
 
@@ -198,21 +327,23 @@ Kolkata, India
 
 </table>
 
-</p>
+---
 
-<br>
+## 💻 What I Build
+
+- Premium Business Websites
+- Landing Pages
+- Portfolio Websites
+- Dashboard Interfaces
+- AI Powered Web Apps
+- Discord Bots
+- Automation Tools
+- Modern UI Systems
 
 <p align="center">
 
-> *"Building modern digital experiences where design, performance, and usability work together."*
+<img
+src="./assets/divider.svg"
+width="100%"/>
 
 </p>
-
-<br>
-
-<p align="center">
-
-<img src="./assets/divider.svg" width="100%" alt="Divider"/>
-
-</p>
-
