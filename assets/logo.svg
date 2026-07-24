@@ -1,52 +1,145 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-width="220"
-height="220"
-viewBox="0 0 220 220">
+width="512"
+height="512"
+viewBox="0 0 512 512">
 
 <defs>
 
-<linearGradient id="g">
+<linearGradient id="bg"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="100%">
 
-<stop offset="0%" stop-color="#2563eb"/>
-
-<stop offset="100%" stop-color="#60a5fa"/>
+<stop offset="0%" stop-color="#050816"/>
+<stop offset="100%" stop-color="#091A36"/>
 
 </linearGradient>
 
-<filter id="shadow">
-<feDropShadow
-dx="0"
-dy="0"
-stdDeviation="8"
-flood-color="#2563eb"
-flood-opacity=".6"/>
+<linearGradient id="accent"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="100%">
+
+<stop offset="0%" stop-color="#60A5FA"/>
+<stop offset="100%" stop-color="#2563EB"/>
+
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="12"/>
 </filter>
 
 </defs>
 
+<!-- Background -->
+
 <rect
-x="20"
-y="20"
-width="180"
-height="180"
-rx="40"
-fill="#08111f"
-stroke="#2563eb"/>
+width="512"
+height="512"
+rx="120"
+fill="url(#bg)"/>
+
+<!-- Glow -->
+
+<circle
+cx="256"
+cy="256"
+r="145"
+fill="#2563EB22"
+filter="url(#glow)">
+
+<animate
+attributeName="r"
+values="145;160;145"
+dur="4s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- Outer Ring -->
+
+<circle
+cx="256"
+cy="256"
+r="165"
+fill="none"
+stroke="#3B82F655"
+stroke-width="4">
+
+<animate
+attributeName="stroke-opacity"
+values=".6;.2;.6"
+dur="4s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- Geometric W -->
 
 <path
 
-d="M65 65 L88 155 L110 100 L132 155 L155 65"
+d="
+M145 170
+L185 345
+L230 235
+L256 315
+L282 235
+L327 345
+L367 170
+"
 
 fill="none"
-
-stroke="url(#g)"
-
-stroke-width="12"
-
+stroke="url(#accent)"
+stroke-width="22"
 stroke-linecap="round"
+stroke-linejoin="round"/>
 
-stroke-linejoin="round"
+<!-- Center Dot -->
 
-filter="url(#shadow)"/>
+<circle
+cx="256"
+cy="256"
+r="9"
+fill="#60A5FA">
+
+<animate
+attributeName="r"
+values="9;12;9"
+dur="2.5s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- Corner Accent -->
+
+<circle
+cx="392"
+cy="120"
+r="7"
+fill="#60A5FA">
+
+<animate
+attributeName="opacity"
+values="1;.2;1"
+dur="3s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<circle
+cx="120"
+cy="392"
+r="6"
+fill="#3B82F6">
+
+<animate
+attributeName="opacity"
+values=".3;1;.3"
+dur="4s"
+repeatCount="indefinite"/>
+
+</circle>
 
 </svg>
