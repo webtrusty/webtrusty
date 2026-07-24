@@ -158,3 +158,279 @@ y1="160"
 x2="1470"
 y2="160"
 stroke="#2563EB55"/>
+
+<!-- ========================= -->
+<!-- LEFT CONTENT -->
+<!-- ========================= -->
+
+<!-- Logo -->
+
+<circle
+cx="240"
+cy="235"
+r="34"
+fill="#0F172A"
+stroke="#3B82F6"
+stroke-width="2">
+
+<animate
+attributeName="r"
+values="34;37;34"
+dur="3s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<text
+x="240"
+y="247"
+text-anchor="middle"
+font-family="Inter,Arial"
+font-size="28"
+font-weight="700"
+fill="#FFFFFF">
+
+W
+
+</text>
+
+<!-- Brand -->
+
+<text
+x="300"
+y="248"
+font-family="Inter,Arial"
+font-size="54"
+font-weight="800"
+fill="#FFFFFF">
+
+WEBTRUSTY
+
+</text>
+
+<!-- Accent Line -->
+
+<rect
+x="300"
+y="264"
+width="150"
+height="4"
+rx="2"
+fill="#3B82F6"/>
+
+<!-- Role -->
+
+<text
+x="180"
+y="330"
+font-family="Inter,Arial"
+font-size="30"
+font-weight="600"
+fill="#E2E8F0">
+
+Frontend-Focused Full Stack Developer
+
+</text>
+
+<!-- Tagline -->
+
+<text
+x="180"
+y="378"
+font-family="Inter,Arial"
+font-size="20"
+fill="#94A3B8">
+
+Building premium web experiences with modern UI,
+
+</text>
+
+<text
+x="180"
+y="408"
+font-family="Inter,Arial"
+font-size="20"
+fill="#94A3B8">
+
+performance engineering and AI automation.
+
+</text>
+
+<!-- ========================= -->
+<!-- TECH PILLS -->
+<!-- ========================= -->
+
+<!-- React -->
+
+<rect x="180" y="455" width="92" height="36" rx="18"
+fill="#111827"
+stroke="#2563EB"/>
+
+<text
+x="226"
+y="478"
+text-anchor="middle"
+font-family="Inter,Arial"
+font-size="15"
+fill="#FFFFFF">
+
+React
+
+</text>
+
+<!-- TypeScript -->
+
+<rect x="286" y="455" width="120" height="36" rx="18"
+fill="#111827"
+stroke="#2563EB"/>
+
+<text
+x="346"
+y="478"
+text-anchor="middle"
+font-family="Inter,Arial"
+font-size="15"
+fill="#FFFFFF">
+
+TypeScript
+
+</text>
+
+<!-- Node -->
+
+<rect x="420" y="455" width="96" height="36" rx="18"
+fill="#111827"
+stroke="#2563EB"/>
+
+<text
+x="468"
+y="478"
+text-anchor="middle"
+font-family="Inter,Arial"
+font-size="15"
+fill="#FFFFFF">
+
+Node.js
+
+</text>
+
+<!-- AI -->
+
+<rect x="530" y="455" width="62" height="36" rx="18"
+fill="#111827"
+stroke="#2563EB"/>
+
+<text
+x="561"
+y="478"
+text-anchor="middle"
+font-family="Inter,Arial"
+font-size="15"
+fill="#FFFFFF">
+
+AI
+
+</text>
+
+<!-- GSAP -->
+
+<rect x="606" y="455" width="78" height="36" rx="18"
+fill="#111827"
+stroke="#2563EB"/>
+
+<text
+x="645"
+y="478"
+text-anchor="middle"
+font-family="Inter,Arial"
+font-size="15"
+fill="#FFFFFF">
+
+GSAP
+
+</text>
+
+<!-- Three.js -->
+
+<rect x="698" y="455" width="108" height="36" rx="18"
+fill="#111827"
+stroke="#2563EB"/>
+
+<text
+x="752"
+y="478"
+text-anchor="middle"
+font-family="Inter,Arial"
+font-size="15"
+fill="#FFFFFF">
+
+Three.js
+
+</text>
+
+<!-- ========================= -->
+<!-- CTA BUTTONS -->
+<!-- ========================= -->
+
+<rect
+x="180"
+y="535"
+width="140"
+height="46"
+rx="23"
+fill="#2563EB"/>
+
+<text
+x="250"
+y="564"
+text-anchor="middle"
+font-family="Inter,Arial"
+font-size="17"
+font-weight="600"
+fill="#FFFFFF">
+
+Portfolio
+
+</text>
+
+<rect
+x="340"
+y="535"
+width="130"
+height="46"
+rx="23"
+fill="#0F172A"
+stroke="#2563EB"/>
+
+<text
+x="405"
+y="564"
+text-anchor="middle"
+font-family="Inter,Arial"
+font-size="17"
+fill="#FFFFFF">
+
+GitHub
+
+</text>
+
+<rect
+x="490"
+y="535"
+width="130"
+height="46"
+rx="23"
+fill="#0F172A"
+stroke="#2563EB"/>
+
+<text
+x="555"
+y="564"
+text-anchor="middle"
+font-family="Inter,Arial"
+font-size="17"
+fill="#FFFFFF">
+
+Contact
+
+</text>
