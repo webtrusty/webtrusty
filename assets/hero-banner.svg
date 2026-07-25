@@ -364,4 +364,340 @@ filter="url(#noise)"
 
 opacity=".20"/>
 
+<!-- ===================================================== -->
+<!-- BRAND -->
+<!-- ===================================================== -->
+
+<g id="brand">
+
+  <circle cx="130" cy="96" r="5" fill="#3B82F6"/>
+
+  <text
+    x="148"
+    y="101"
+    font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif"
+    font-size="16"
+    font-weight="700"
+    letter-spacing="2"
+    fill="#FFFFFF">
+
+    WEBTRUSTY
+
+  </text>
+
+  <text
+    x="148"
+    y="122"
+    font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif"
+    font-size="11"
+    letter-spacing="4"
+    fill="#60A5FA">
+
+    FRONTEND ENGINEER
+
+  </text>
+
+</g>
+
+<!-- ===================================================== -->
+<!-- STATUS -->
+<!-- ===================================================== -->
+
+<g>
+
+<rect
+
+x="1350"
+
+y="82"
+
+width="112"
+
+height="34"
+
+rx="17"
+
+fill="#081326"
+
+stroke="#2563EB"
+
+stroke-opacity=".28"/>
+
+<circle
+  
+id="statusDot"
+  
+cx="1372"
+  
+cy="99"
+  
+r="4"
+  
+fill="#22C55E"/>
+
+<animate
+xlink:href="#statusDot"
+attributeName="opacity"
+values="1;.35;1"
+dur="2s"
+repeatCount="indefinite"/>
+
+<text
+
+x="1392"
+
+y="103"
+
+font-family="Inter"
+
+font-size="11"
+
+fill="#FFFFFF">
+
+AVAILABLE
+
+</text>
+
+</g>
+
+<!-- ===================================================== -->
+<!-- SECTION -->
+<!-- ===================================================== -->
+
+<text
+
+x="800"
+
+y="132"
+
+text-anchor="middle"
+
+font-family="Inter"
+
+font-size="12"
+
+font-weight="600"
+
+letter-spacing="8"
+
+fill="#60A5FA">
+
+PORTFOLIO
+
+</text>
+
+<!-- ===================================================== -->
+<!-- MAIN TITLE -->
+<!-- ===================================================== -->
+
+<text
+
+x="800"
+
+y="196"
+
+text-anchor="middle"
+
+font-family="Inter"
+
+font-size="64"
+
+font-weight="700"
+
+fill="#FFFFFF">
+
+Crafting Premium
+
+</text>
+
+<text
+
+x="800"
+
+y="252"
+
+text-anchor="middle"
+
+font-family="Inter"
+
+font-size="64"
+
+font-weight="700"
+
+fill="#FFFFFF">
+
+Digital Experiences
+
+</text>
+
+<!-- ===================================================== -->
+<!-- SUBTITLE -->
+<!-- ===================================================== -->
+
+<text
+
+x="800"
+
+y="292"
+
+text-anchor="middle"
+
+font-family="Inter"
+
+font-size="17"
+
+fill="#CBD5E1">
+
+Frontend Development • Modern UI • Full Stack • AI Integration
+
+</text>
+
+<!-- ===================================================== -->
+<!-- DIVIDER -->
+<!-- ===================================================== -->
+
+<line
+
+x1="640"
+
+y1="320"
+
+x2="960"
+
+y2="320"
+
+stroke="#2563EB"
+
+stroke-opacity=".30"/>
+
+<circle
+
+cx="800"
+
+cy="320"
+
+r="5"
+
+fill="#60A5FA"/>
+
+<!-- ===================================================== -->
+<!-- STACK -->
+<!-- ===================================================== -->
+
+<text
+
+x="800"
+
+y="352"
+
+text-anchor="middle"
+
+font-family="Inter"
+
+font-size="13"
+
+letter-spacing="2"
+
+fill="#7DD3FC">
+
+React • Next.js • TypeScript • GSAP • Three.js • Node.js
+
+</text>
+
+<!-- ===================================================== -->
+<!-- BOTTOM META -->
+<!-- ===================================================== -->
+
+<g>
+
+<line
+
+x1="90"
+
+y1="380"
+
+x2="1510"
+
+y2="380"
+
+stroke="#1E3A8A"
+
+stroke-opacity=".22"/>
+
+<text
+
+x="150"
+
+y="402"
+
+font-family="Inter"
+
+font-size="11"
+
+fill="#64748B"
+
+letter-spacing="3">
+
+PERFORMANCE
+
+</text>
+
+<text
+
+x="520"
+
+y="402"
+
+font-family="Inter"
+
+font-size="11"
+
+fill="#64748B"
+
+letter-spacing="3">
+
+MODERN UI
+
+</text>
+
+<text
+
+x="860"
+
+y="402"
+
+font-family="Inter"
+
+font-size="11"
+
+fill="#64748B"
+
+letter-spacing="3">
+
+FULL STACK
+
+</text>
+
+<text
+
+x="1300"
+
+y="402"
+
+font-family="Inter"
+
+font-size="11"
+
+fill="#64748B"
+
+letter-spacing="3">
+
+AI SYSTEMS
+
+</text>
+
+</g>
+
+
+  
 </svg>
