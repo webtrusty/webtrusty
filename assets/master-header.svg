@@ -204,4 +204,257 @@ stroke="#60A5FA"
 
 stroke-width="2"/>
 
+  <!-- ===================================================== -->
+  <!-- LEFT HUD PANEL -->
+  <!-- ===================================================== -->
+
+  <g id="hud-left">
+
+    <rect
+      x="205"
+      y="52"
+      width="170"
+      height="136"
+      rx="14"
+      fill="#08111F"
+      stroke="#2563EB"
+      stroke-opacity=".18"/>
+
+    <text
+      x="225"
+      y="76"
+      fill="#60A5FA"
+      font-family="Arial"
+      font-size="10"
+      letter-spacing="2">
+      SYSTEM
+    </text>
+
+    <circle
+      cx="226"
+      cy="95"
+      r="4"
+      fill="#22C55E"/>
+
+    <text
+      x="238"
+      y="99"
+      fill="#FFFFFF"
+      font-family="Arial"
+      font-size="12"
+      font-weight="700">
+      ONLINE
+    </text>
+
+    <line
+      x1="225"
+      y1="112"
+      x2="355"
+      y2="112"
+      stroke="#1E3A5F"/>
+
+    <text
+      x="225"
+      y="132"
+      fill="#7DD3FC"
+      font-family="Arial"
+      font-size="9">
+      BUILD
+    </text>
+
+    <text
+      x="225"
+      y="148"
+      fill="#FFFFFF"
+      font-family="Arial"
+      font-size="18"
+      font-weight="700">
+      2026
+    </text>
+
+    <text
+      x="225"
+      y="171"
+      fill="#7DD3FC"
+      font-family="Arial"
+      font-size="9">
+      VERSION
+    </text>
+
+    <text
+      x="225"
+      y="186"
+      fill="#FFFFFF"
+      font-family="Arial"
+      font-size="12"
+      font-weight="700">
+      v3.0
+    </text>
+
+  </g>
+
+  <!-- ===================================================== -->
+  <!-- RIGHT HUD PANEL -->
+  <!-- ===================================================== -->
+
+  <g id="hud-right">
+
+    <rect
+      x="1225"
+      y="52"
+      width="170"
+      height="136"
+      rx="14"
+      fill="#08111F"
+      stroke="#2563EB"
+      stroke-opacity=".18"/>
+
+    <text
+      x="1245"
+      y="76"
+      fill="#60A5FA"
+      font-family="Arial"
+      font-size="10"
+      letter-spacing="2">
+      PROFILE
+    </text>
+
+    <text
+      x="1245"
+      y="100"
+      fill="#FFFFFF"
+      font-family="Arial"
+      font-size="12"
+      font-weight="700">
+      FRONTEND
+    </text>
+
+    <line
+      x1="1245"
+      y1="112"
+      x2="1375"
+      y2="112"
+      stroke="#1E3A5F"/>
+
+    <text
+      x="1245"
+      y="132"
+      fill="#7DD3FC"
+      font-family="Arial"
+      font-size="9">
+      STATUS
+    </text>
+
+    <text
+      x="1245"
+      y="148"
+      fill="#FFFFFF"
+      font-family="Arial"
+      font-size="12"
+      font-weight="700">
+      ACTIVE
+    </text>
+
+    <text
+      x="1245"
+      y="171"
+      fill="#7DD3FC"
+      font-family="Arial"
+      font-size="9">
+      FOCUS
+    </text>
+
+    <text
+      x="1245"
+      y="186"
+      fill="#FFFFFF"
+      font-family="Arial"
+      font-size="12"
+      font-weight="700">
+      UI SYSTEMS
+    </text>
+
+  </g>
+
+  <!-- ===================================================== -->
+  <!-- FLOATING DECORATION -->
+  <!-- ===================================================== -->
+
+  <g opacity=".8">
+
+    <circle cx="520" cy="58" r="2" fill="#60A5FA"/>
+    <circle cx="560" cy="174" r="2" fill="#3B82F6"/>
+    <circle cx="1080" cy="52" r="2" fill="#60A5FA"/>
+    <circle cx="1120" cy="180" r="2" fill="#3B82F6"/>
+
+    <rect
+      x="470"
+      y="84"
+      width="8"
+      height="8"
+      fill="#60A5FA"
+      opacity=".45"
+      transform="rotate(45 474 88)"/>
+
+    <rect
+      x="1125"
+      y="84"
+      width="8"
+      height="8"
+      fill="#60A5FA"
+      opacity=".45"
+      transform="rotate(45 1129 88)"/>
+
+  </g>
+
+  <!-- ===================================================== -->
+  <!-- MICRO STATUS CHIPS -->
+  <!-- ===================================================== -->
+
+  <g>
+
+    <rect
+      x="690"
+      y="40"
+      width="70"
+      height="22"
+      rx="11"
+      fill="#0F1C33"
+      stroke="#2563EB"
+      stroke-opacity=".30"/>
+
+    <text
+      x="725"
+      y="55"
+      text-anchor="middle"
+      fill="#7DD3FC"
+      font-family="Arial"
+      font-size="9"
+      letter-spacing="1">
+      PREMIUM
+    </text>
+
+    <rect
+      x="840"
+      y="40"
+      width="70"
+      height="22"
+      rx="11"
+      fill="#0F1C33"
+      stroke="#2563EB"
+      stroke-opacity=".30"/>
+
+    <text
+      x="875"
+      y="55"
+      text-anchor="middle"
+      fill="#7DD3FC"
+      font-family="Arial"
+      font-size="9"
+      letter-spacing="1">
+      VERIFIED
+    </text>
+
+  </g>
+     
 </svg>
