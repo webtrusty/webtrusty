@@ -601,5 +601,116 @@ stroke-width="2"/>
     <circle cx="990" cy="95" r="2" fill="#60A5FA"/>
 
   </g>
+
+  <!-- ===================================================== -->
+  <!-- MOTION LAYER -->
+  <!-- ===================================================== -->
+
+  <!-- Floating Particle 1 -->
+  <circle cx="320" cy="55" r="2" fill="#60A5FA">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 0;0 -10;0 0"
+      dur="8s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Floating Particle 2 -->
+  <circle cx="1280" cy="170" r="2" fill="#60A5FA">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 0;0 10;0 0"
+      dur="9s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Floating Particle 3 -->
+  <circle cx="1110" cy="62" r="1.8" fill="#3B82F6">
+    <animate
+      attributeName="opacity"
+      values=".2;1;.2"
+      dur="5s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Center Pulse -->
+
+  <circle
+      cx="800"
+      cy="173"
+      r="15"
+      fill="none"
+      stroke="#60A5FA"
+      stroke-opacity=".12">
+
+      <animate
+        attributeName="r"
+        values="15;24;15"
+        dur="3.5s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="stroke-opacity"
+        values=".15;.03;.15"
+        dur="3.5s"
+        repeatCount="indefinite"/>
+
+  </circle>
+
+  <!-- Divider Sweep -->
+
+  <rect
+      x="600"
+      y="171"
+      width="40"
+      height="4"
+      rx="2"
+      fill="#FFFFFF"
+      opacity=".35">
+
+      <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0;360 0;0 0"
+          dur="5s"
+          repeatCount="indefinite"/>
+
+  </rect>
+
+  <!-- Status Blink -->
+
+  <circle
+      cx="226"
+      cy="95"
+      r="4"
+      fill="#22C55E">
+
+      <animate
+          attributeName="opacity"
+          values="1;.35;1"
+          dur="2s"
+          repeatCount="indefinite"/>
+
+  </circle>
+
+  <!-- Version Blink -->
+
+  <circle
+      cx="1382"
+      cy="95"
+      r="3"
+      fill="#60A5FA">
+
+      <animate
+          attributeName="opacity"
+          values=".3;1;.3"
+          dur="4s"
+          repeatCount="indefinite"/>
+
+  </circle>
+
+</svg>
      
 </svg>
