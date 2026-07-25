@@ -1,164 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-width="1600"
-height="120"
-viewBox="0 0 1600 120">
-
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 80" width="1600" height="80">
 <defs>
-
-<linearGradient id="line"
-x1="0%"
-y1="0%"
-x2="100%"
-y2="0%">
-
-<stop offset="0%" stop-color="#2563EB00"/>
-<stop offset="20%" stop-color="#2563EB55"/>
-<stop offset="50%" stop-color="#60A5FA"/>
-<stop offset="80%" stop-color="#2563EB55"/>
-<stop offset="100%" stop-color="#2563EB00"/>
-
+<linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#60A5FA" stop-opacity="0"/>
+<stop offset="50%" stop-color="#60A5FA" stop-opacity=".9"/>
+<stop offset="100%" stop-color="#60A5FA" stop-opacity="0"/>
 </linearGradient>
-
-<radialGradient id="glow">
-
-<stop offset="0%" stop-color="#60A5FA55"/>
-<stop offset="100%" stop-color="#60A5FA00"/>
-
-</radialGradient>
-
-<filter id="blur">
-<feGaussianBlur stdDeviation="18"/>
+<filter id="glow">
+<feGaussianBlur stdDeviation="3" result="b"/>
+<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
 </filter>
-
 </defs>
-
-<!-- Background Glow -->
-
-<ellipse
-cx="800"
-cy="60"
-rx="150"
-ry="28"
-fill="url(#glow)"
-filter="url(#blur)">
-
-<animate
-attributeName="rx"
-values="150;180;150"
-dur="4s"
-repeatCount="indefinite"/>
-
-<animate
-attributeName="opacity"
-values=".45;.18;.45"
-dur="4s"
-repeatCount="indefinite"/>
-
-</ellipse>
-
-<!-- Main Divider -->
-
-<line
-x1="120"
-y1="60"
-x2="1480"
-y2="60"
-stroke="url(#line)"
-stroke-width="2"/>
-
-<!-- Center Diamond -->
-
-<g>
-
-<rect
-x="790"
-y="50"
-width="20"
-height="20"
-rx="3"
-fill="#3B82F6"
-transform="rotate(45 800 60)">
-
-<animateTransform
-attributeName="transform"
-type="rotate"
-values="45 800 60;405 800 60"
-dur="12s"
-repeatCount="indefinite"/>
-
-</rect>
-
-<circle
-cx="800"
-cy="60"
-r="16"
-fill="none"
-stroke="#60A5FA55"
-stroke-width="1.5">
-
-<animate
-attributeName="r"
-values="16;24;16"
-dur="3s"
-repeatCount="indefinite"/>
-
-<animate
-attributeName="stroke-opacity"
-values=".6;.15;.6"
-dur="3s"
-repeatCount="indefinite"/>
-
+<rect width="1600" height="80" fill="transparent"/>
+<line x1="160" y1="40" x2="1440" y2="40" stroke="url(#line)" stroke-width="2"/>
+<circle cx="800" cy="40" r="5" fill="#60A5FA" filter="url(#glow)">
+<animate attributeName="cx" values="160;1440;160" dur="8s" repeatCount="indefinite"/>
 </circle>
-
-</g>
-
-<!-- Left Particles -->
-
-<circle cx="420" cy="60" r="2" fill="#60A5FA">
-<animate attributeName="cx"
-values="420;440;420"
-dur="5s"
-repeatCount="indefinite"/>
+<circle cx="800" cy="40" r="12" fill="none" stroke="#3B82F6" stroke-opacity=".35">
+<animate attributeName="r" values="8;20;8" dur="4s" repeatCount="indefinite"/>
+<animate attributeName="stroke-opacity" values=".35;0;.35" dur="4s" repeatCount="indefinite"/>
 </circle>
-
-<circle cx="560" cy="60" r="1.8" fill="#3B82F6">
-<animate attributeName="cx"
-values="560;540;560"
-dur="6s"
-repeatCount="indefinite"/>
-</circle>
-
-<!-- Right Particles -->
-
-<circle cx="1040" cy="60" r="2" fill="#60A5FA">
-<animate attributeName="cx"
-values="1040;1060;1040"
-dur="5s"
-repeatCount="indefinite"/>
-</circle>
-
-<circle cx="1180" cy="60" r="1.8" fill="#3B82F6">
-<animate attributeName="cx"
-values="1180;1160;1180"
-dur="6s"
-repeatCount="indefinite"/>
-</circle>
-
-<!-- Scan Light -->
-
-<rect
-x="-250"
-y="58"
-width="180"
-height="4"
-fill="#60A5FA22">
-
-<animate
-attributeName="x"
-values="-250;1850"
-dur="7s"
-repeatCount="indefinite"/>
-
-</rect>
-
+<text x="800" y="27" text-anchor="middle" fill="#64748B"
+font-family="Inter,Arial" font-size="10" letter-spacing="4">WEBTRUSTY</text>
 </svg>
