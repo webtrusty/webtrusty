@@ -1,133 +1,178 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="170" viewBox="0 0 1600 170">
+<svg xmlns="http://www.w3.org/2000/svg"
+width="1600"
+height="180"
+viewBox="0 0 1600 180">
 
 <defs>
 
-<linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+<linearGradient id="bg"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="100%">
+<stop offset="0%" stop-color="#050816"/>
+<stop offset="100%" stop-color="#08142C"/>
+</linearGradient>
+
+<linearGradient id="accent"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="0%">
 <stop offset="0%" stop-color="#2563EB00"/>
-<stop offset="50%" stop-color="#3B82F6"/>
+<stop offset="50%" stop-color="#60A5FA"/>
 <stop offset="100%" stop-color="#2563EB00"/>
 </linearGradient>
 
-<linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+<linearGradient id="label">
 <stop offset="0%" stop-color="#60A5FA"/>
 <stop offset="100%" stop-color="#2563EB"/>
 </linearGradient>
 
-<filter id="blur">
-<feGaussianBlur stdDeviation="18"/>
+<filter id="softBlur">
+<feGaussianBlur stdDeviation="30"/>
 </filter>
 
 </defs>
 
-<!-- Glow -->
+<!-- Background -->
 
-<circle cx="800" cy="82" r="85" fill="#2563EB22" filter="url(#blur)">
+<rect
+width="1600"
+height="180"
+fill="url(#bg)"/>
+
+<!-- Aurora Left -->
+
+<circle
+cx="220"
+cy="90"
+r="120"
+fill="#2563EB18"
+filter="url(#softBlur)">
 
 <animate
-attributeName="r"
-values="85;95;85"
-dur="4s"
+attributeName="cx"
+values="220;280;220"
+dur="12s"
 repeatCount="indefinite"/>
 
 </circle>
 
-<!-- Left Line -->
+<!-- Aurora Right -->
 
-<line
-x1="140"
-y1="82"
-x2="620"
-y2="82"
-stroke="url(#line)"
-stroke-width="2"/>
+<circle
+cx="1380"
+cy="90"
+r="120"
+fill="#60A5FA15"
+filter="url(#softBlur)">
 
-<!-- Right Line -->
+<animate
+attributeName="cx"
+values="1380;1320;1380"
+dur="12s"
+repeatCount="indefinite"/>
 
-<line
-x1="980"
-y1="82"
-x2="1460"
-y2="82"
-stroke="url(#line)"
-stroke-width="2"/>
+</circle>
 
-<!-- Center Diamond -->
-
-<polygon
-points="780,82 800,62 820,82 800,102"
-fill="url(#accent)">
-
-<animateTransform
-attributeName="transform"
-type="scale"
-values="1;1.18;1"
-dur="2.5s"
-repeatCount="indefinite"
-additive="sum"
-origin="800 82"/>
-
-</polygon>
-
-<!-- ABOUT -->
+<!-- Top Label -->
 
 <text
 x="800"
-y="74"
+y="48"
 text-anchor="middle"
-font-family="Inter,Arial"
-font-size="16"
-font-weight="700"
+font-family="Inter,Segoe UI,Arial,sans-serif"
+font-size="14"
+font-weight="600"
 letter-spacing="6"
-fill="#60A5FA">
+fill="url(#label)">
 
 SECTION
 
 </text>
 
+<!-- Main Title -->
+
 <text
 x="800"
-y="128"
+y="92"
 text-anchor="middle"
-font-family="Inter,Arial"
-font-size="42"
-font-weight="800"
+font-family="Inter,Segoe UI,Arial,sans-serif"
+font-size="40"
+font-weight="700"
 fill="#FFFFFF">
 
-ABOUT ME
+ABOUT
 
 </text>
 
-<!-- Scan -->
+<!-- Subtitle -->
 
-<rect
-x="-240"
-y="79"
-width="180"
-height="6"
-fill="url(#accent)"
-opacity=".18">
+<text
+x="800"
+y="122"
+text-anchor="middle"
+font-family="Inter,Segoe UI,Arial,sans-serif"
+font-size="16"
+fill="#94A3B8">
+
+Developer Profile
+
+</text>
+
+<!-- Divider -->
+
+<line
+x1="580"
+y1="150"
+x2="760"
+y2="150"
+stroke="url(#accent)"
+stroke-width="2"/>
+
+<circle
+cx="800"
+cy="150"
+r="5"
+fill="#60A5FA">
 
 <animate
-attributeName="x"
-values="-240;1700"
-dur="6s"
+attributeName="r"
+values="5;7;5"
+dur="3s"
 repeatCount="indefinite"/>
 
-</rect>
+</circle>
 
-<!-- Small Particles -->
+<line
+x1="840"
+y1="150"
+x2="1020"
+y2="150"
+stroke="url(#accent)"
+stroke-width="2"/>
 
-<circle cx="700" cy="42" r="2" fill="#60A5FA">
+<!-- Floating Particles -->
+
+<circle cx="500" cy="42" r="2" fill="#60A5FA">
 <animate attributeName="cy"
-values="42;36;42"
-dur="3s"
+values="42;34;42"
+dur="6s"
 repeatCount="indefinite"/>
 </circle>
 
-<circle cx="900" cy="122" r="2" fill="#60A5FA">
+<circle cx="1100" cy="138" r="2" fill="#3B82F6">
 <animate attributeName="cy"
-values="122;116;122"
-dur="4s"
+values="138;130;138"
+dur="7s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1260" cy="56" r="1.8" fill="#60A5FA">
+<animate attributeName="cy"
+values="56;48;56"
+dur="5s"
 repeatCount="indefinite"/>
 </circle>
 
