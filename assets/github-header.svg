@@ -48,9 +48,9 @@
 <text x="800" y="92" text-anchor="middle" fill="#60A5FA"
 font-family="Inter,Segoe UI,Arial" font-size="12" letter-spacing="8">GITHUB</text>
 <text x="800" y="145" text-anchor="middle" fill="#FFF"
-font-family="Inter,Segoe UI,Arial" font-size="48" font-weight="700">Open Source & GitHub</text>
+font-family="Inter,Segoe UI,Arial" font-size="48" font-weight="700">Open Source &amp; GitHub</text>
 <text x="800" y="175" text-anchor="middle" fill="#CBD5E1"
-font-family="Inter,Segoe UI,Arial" font-size="16">SubOpen Source & GitHub goes here</text>
+font-family="Inter,Segoe UI,Arial" font-size="16">Repositories • Contributions • Activity • Continuous Learning</text>
 <line x1="650" y1="200" x2="950" y2="200" stroke="#3B82F6" stroke-opacity=".4"/>
 <circle cx="800" cy="200" r="4" fill="#60A5FA">
 <animate attributeName="cx" values="650;950;650" dur="5s" repeatCount="indefinite"/>
