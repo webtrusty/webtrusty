@@ -1,787 +1,138 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-width="1600"
-height="760"
-viewBox="0 0 1600 760">
-
-<defs>
-
-<linearGradient id="bg"
-x1="0%"
-y1="0%"
-x2="100%"
-y2="100%">
-
-<stop offset="0%" stop-color="#050816"/>
-<stop offset="100%" stop-color="#091A36"/>
-
-</linearGradient>
-
-<linearGradient id="border">
-
-<stop offset="0%" stop-color="#2563EB"/>
-
-<stop offset="100%" stop-color="#60A5FA"/>
-
-</linearGradient>
-
-<linearGradient id="scan">
-
-<stop offset="0%" stop-color="#FFFFFF00"/>
-<stop offset="50%" stop-color="#60A5FA22"/>
-<stop offset="100%" stop-color="#FFFFFF00"/>
-
-</linearGradient>
-
-<filter id="blur">
-
-<feGaussianBlur stdDeviation="60"/>
-
-</filter>
-
-<pattern
-id="grid"
-width="40"
-height="40"
-patternUnits="userSpaceOnUse">
-
-<path
-d="M40 0H0V40"
-fill="none"
-stroke="#1E3A8A"
-stroke-opacity=".08"/>
-
-</pattern>
-
-</defs>
-
-<!-- Background -->
-
-<rect
-width="1600"
-height="760"
-fill="url(#bg)"/>
-
-<rect
-width="1600"
-height="760"
-fill="url(#grid)"/>
-
-<!-- Aurora -->
-
-<circle
-cx="250"
-cy="180"
-r="220"
-fill="#2563EB22"
-filter="url(#blur)">
-
-<animate
-attributeName="cx"
-values="250;330;250"
-dur="14s"
-repeatCount="indefinite"/>
-
-</circle>
-
-<circle
-cx="1360"
-cy="600"
-r="240"
-fill="#60A5FA18"
-filter="url(#blur)">
-
-<animate
-attributeName="cy"
-values="600;540;600"
-dur="15s"
-repeatCount="indefinite"/>
-
-</circle>
-
-<!-- Main Glass -->
-
-<rect
-x="60"
-y="40"
-width="1480"
-height="680"
-rx="30"
-fill="#081120AA"
-stroke="url(#border)"
-stroke-width="2"/>
-
-<!-- Scan Effect -->
-
-<rect
-x="-300"
-y="40"
-width="220"
-height="680"
-fill="url(#scan)"
-transform="skewX(-25)">
-
-<animate
-attributeName="x"
-values="-300;1800"
-dur="8s"
-repeatCount="indefinite"/>
-
-</rect>
-
-<!-- Heading -->
-
-<text
-x="800"
-y="95"
-text-anchor="middle"
-font-family="Inter"
-font-size="42"
-font-weight="800"
-fill="white">
-
-LET'S BUILD SOMETHING AMAZING
-
-</text>
-
-<text
-x="800"
-y="126"
-text-anchor="middle"
-font-family="Inter"
-font-size="18"
-fill="#60A5FA">
-
-Available for Freelance • Remote • Collaboration
-
-</text>
-
-<line
-x1="120"
-y1="160"
-x2="1480"
-y2="160"
-stroke="#2563EB55"/>
-
-<!-- ========================= -->
-<!-- LEFT CARD -->
-<!-- ========================= -->
-
-<rect
-x="100"
-y="205"
-width="560"
-height="430"
-rx="24"
-fill="#0B1224"
-stroke="#2563EB55"/>
-
-<!-- ========================= -->
-<!-- RIGHT CARD -->
-<!-- ========================= -->
-
-<rect
-x="760"
-y="205"
-width="740"
-height="430"
-rx="24"
-fill="#0B1224"
-stroke="#2563EB55"/>
-
-<!-- ================================================= -->
-<!-- PROFILE SECTION -->
-<!-- ================================================= -->
-
-<!-- Avatar -->
-
-<circle
-cx="380"
-cy="295"
-r="70"
-fill="#0F172A"
-stroke="url(#border)"
-stroke-width="3"/>
-
-<text
-x="380"
-y="310"
-text-anchor="middle"
-font-family="Inter"
-font-size="42"
-font-weight="700"
-fill="#FFFFFF">
-
-W
-
-</text>
-
-<!-- Name -->
-
-<text
-x="380"
-y="390"
-text-anchor="middle"
-font-family="Inter"
-font-size="30"
-font-weight="700"
-fill="#FFFFFF">
-
-WebTrusty
-
-</text>
-
-<text
-x="380"
-y="420"
-text-anchor="middle"
-font-family="Inter"
-font-size="17"
-fill="#60A5FA">
-
-Frontend Developer & UI Designer
-
-</text>
-
-<!-- Status -->
-
-<rect
-x="275"
-y="445"
-width="210"
-height="34"
-rx="17"
-fill="#081120"
-stroke="#22C55E"/>
-
-<circle
-cx="300"
-cy="462"
-r="5"
-fill="#22C55E">
-
-<animate
-attributeName="opacity"
-values="1;.3;1"
-dur="2s"
-repeatCount="indefinite"/>
-
-</circle>
-
-<text
-x="390"
-y="467"
-text-anchor="middle"
-font-family="Inter"
-font-size="14"
-font-weight="600"
-fill="#FFFFFF">
-
-Available for Projects
-
-</text>
-
-<!-- ================================================= -->
-<!-- CONTACT DETAILS -->
-<!-- ================================================= -->
-
-<text
-x="150"
-y="530"
-font-family="Inter"
-font-size="18"
-font-weight="700"
-fill="#FFFFFF">
-
-EMAIL
-
-</text>
-
-<text
-x="150"
-y="558"
-font-family="Inter"
-font-size="16"
-fill="#94A3B8">
-
-sahiblaskar003@gmail.com
-
-</text>
-
-<text
-x="150"
-y="602"
-font-family="Inter"
-font-size="18"
-font-weight="700"
-fill="#FFFFFF">
-
-LOCATION
-
-</text>
-
-<text
-x="150"
-y="630"
-font-family="Inter"
-font-size="16"
-fill="#94A3B8">
-
-Kolkata, West Bengal, India
-
-</text>
-
-<!-- ================================================= -->
-<!-- RIGHT PANEL -->
-<!-- ================================================= -->
-
-<text
-x="800"
-y="260"
-font-family="Inter"
-font-size="30"
-font-weight="700"
-fill="#FFFFFF">
-
-Let's Work Together
-
-</text>
-
-<text
-x="800"
-y="300"
-font-family="Inter"
-font-size="17"
-fill="#94A3B8">
-
-Available for freelance work,
-
-</text>
-
-<text
-x="800"
-y="325"
-font-family="Inter"
-font-size="17"
-fill="#94A3B8">
-
-startup collaborations and
-
-</text>
-
-<text
-x="800"
-y="350"
-font-family="Inter"
-font-size="17"
-fill="#94A3B8">
-
-premium website development.
-
-</text>
-
-<!-- ================================================= -->
-<!-- SOCIAL LINKS -->
-<!-- ================================================= -->
-
-<text
-x="800"
-y="395"
-font-family="Inter"
-font-size="18"
-font-weight="700"
-fill="#FFFFFF">
-
-CONNECT WITH ME
-
-</text>
-
-<!-- Website -->
-
-<rect
-x="800"
-y="420"
-width="300"
-height="42"
-rx="21"
-fill="#081120"
-stroke="#2563EB"/>
-
-<text
-x="950"
-y="447"
-text-anchor="middle"
-font-family="Inter"
-font-size="15"
-fill="#FFFFFF">
-
-🌐 webtrusty.vercel.app
-
-</text>
-
-<!-- GitHub -->
-
-<rect
-x="1120"
-y="420"
-width="300"
-height="42"
-rx="21"
-fill="#081120"
-stroke="#2563EB"/>
-
-<text
-x="1270"
-y="447"
-text-anchor="middle"
-font-family="Inter"
-font-size="15"
-fill="#FFFFFF">
-
-💻 github.com/webtrusty
-
-</text>
-
-<!-- LinkedIn -->
-
-<rect
-x="800"
-y="475"
-width="300"
-height="42"
-rx="21"
-fill="#081120"
-stroke="#2563EB"/>
-
-<text
-x="950"
-y="502"
-text-anchor="middle"
-font-family="Inter"
-font-size="15"
-fill="#FFFFFF">
-
-🔗 linkedin.com/in/web-trusty
-
-</text>
-
-<!-- X -->
-
-<rect
-x="1120"
-y="475"
-width="300"
-height="42"
-rx="21"
-fill="#081120"
-stroke="#2563EB"/>
-
-<text
-x="1270"
-y="502"
-text-anchor="middle"
-font-family="Inter"
-font-size="15"
-fill="#FFFFFF">
-
-𝕏 @webtrusty_
-
-</text>
-
-<!-- Instagram -->
-
-<rect
-x="800"
-y="530"
-width="300"
-height="42"
-rx="21"
-fill="#081120"
-stroke="#2563EB"/>
-
-<text
-x="950"
-y="557"
-text-anchor="middle"
-font-family="Inter"
-font-size="15"
-fill="#FFFFFF">
-
-📷 @webtrusty
-
-</text>
-
-<!-- Discord -->
-
-<rect
-x="1120"
-y="530"
-width="300"
-height="42"
-rx="21"
-fill="#081120"
-stroke="#2563EB"/>
-
-<text
-x="1270"
-y="557"
-text-anchor="middle"
-font-family="Inter"
-font-size="15"
-fill="#FFFFFF">
-
-🎮 Discord Community
-
-</text>
-
-<!-- ================================================= -->
-<!-- CTA BUTTONS -->
-<!-- ================================================= -->
-
-<rect
-x="885"
-y="605"
-width="180"
-height="46"
-rx="23"
-fill="url(#border)">
-
-<animate
-attributeName="opacity"
-values="1;.75;1"
-dur="2s"
-repeatCount="indefinite"/>
-
-</rect>
-
-<text
-x="975"
-y="634"
-text-anchor="middle"
-font-family="Inter"
-font-size="16"
-font-weight="700"
-fill="#FFFFFF">
-
-Hire Me
-
-</text>
-
-<rect
-x="1090"
-y="605"
-width="210"
-height="46"
-rx="23"
-fill="#081120"
-stroke="#2563EB"/>
-
-<text
-x="1195"
-y="634"
-text-anchor="middle"
-font-family="Inter"
-font-size="16"
-font-weight="700"
-fill="#FFFFFF">
-
-View Portfolio
-
-</text>
-
-<!-- ================================================= -->
-<!-- LIVE STATUS -->
-<!-- ================================================= -->
-
-<circle
-cx="1450"
-cy="235"
-r="5"
-fill="#22C55E">
-
-<animate
-attributeName="opacity"
-values="1;.3;1"
-dur="2s"
-repeatCount="indefinite"/>
-
-</circle>
-
-<text
-x="1430"
-y="260"
-text-anchor="end"
-font-family="Inter"
-font-size="14"
-fill="#94A3B8">
-
-Usually replies within 24 hours
-
-</text>
-
-<!-- ================================================= -->
-<!-- SUMMARY -->
-<!-- ================================================= -->
-
-<line
-x1="100"
-y1="680"
-x2="1500"
-y2="680"
-stroke="#2563EB44"/>
-
-<text
-x="250"
-y="722"
-text-anchor="middle"
-font-family="Inter"
-font-size="30"
-font-weight="700"
-fill="#FFFFFF">
-
-3+
-
-</text>
-
-<text
-x="250"
-y="746"
-text-anchor="middle"
-font-family="Inter"
-font-size="15"
-fill="#94A3B8">
-
-Years Experience
-
-</text>
-
-<text
-x="800"
-y="722"
-text-anchor="middle"
-font-family="Inter"
-font-size="30"
-font-weight="700"
-fill="#FFFFFF">
-
-25+
-
-</text>
-
-<text
-x="800"
-y="746"
-text-anchor="middle"
-font-family="Inter"
-font-size="15"
-fill="#94A3B8">
-
-Completed Projects
-
-</text>
-
-<text
-x="1350"
-y="722"
-text-anchor="middle"
-font-family="Inter"
-font-size="30"
-font-weight="700"
-fill="#FFFFFF">
-
-15+
-
-</text>
-
-<text
-x="1350"
-y="746"
-text-anchor="middle"
-font-family="Inter"
-font-size="15"
-fill="#94A3B8">
-
-Happy Clients
-
-</text>
-
-<!-- ================================================= -->
-<!-- FLOATING PARTICLES -->
-<!-- ================================================= -->
-
-<circle cx="110" cy="90" r="2" fill="#60A5FA">
-<animate attributeName="cy"
-values="90;65;90"
-dur="6s"
-repeatCount="indefinite"/>
-</circle>
-
-<circle cx="430" cy="70" r="2.5" fill="#3B82F6">
-<animate attributeName="cy"
-values="70;45;70"
-dur="7s"
-repeatCount="indefinite"/>
-</circle>
-
-<circle cx="760" cy="105" r="2" fill="#60A5FA">
-<animate attributeName="cy"
-values="105;80;105"
-dur="8s"
-repeatCount="indefinite"/>
-</circle>
-
-<circle cx="1085" cy="80" r="3" fill="#2563EB">
-<animate attributeName="cy"
-values="80;55;80"
-dur="9s"
-repeatCount="indefinite"/>
-</circle>
-
-<circle cx="1490" cy="120" r="2" fill="#60A5FA">
-<animate attributeName="cy"
-values="120;95;120"
-dur="6s"
-repeatCount="indefinite"/>
-</circle>
-
-<!-- ================================================= -->
-<!-- CORNER GLOW -->
-<!-- ================================================= -->
-
-<circle
-cx="1465"
-cy="90"
-r="60"
-fill="#2563EB12">
-
-<animate
-attributeName="r"
-values="60;74;60"
-dur="4s"
-repeatCount="indefinite"/>
-
-<animate
-attributeName="opacity"
-values=".45;.15;.45"
-dur="4s"
-repeatCount="indefinite"/>
-
-</circle>
-
-<!-- ================================================= -->
-<!-- FOOTER -->
-<!-- ================================================= -->
-
-<text
-x="800"
-y="30"
-text-anchor="middle"
-font-family="Inter"
-font-size="13"
-letter-spacing="5"
-fill="#60A5FA">
-
-LET'S CREATE SOMETHING EXTRAORDINARY TOGETHER
-
-</text>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020817"/>
+      <stop offset="0.55" stop-color="#061936"/>
+      <stop offset="1" stop-color="#03102a"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06142c"/>
+      <stop offset="1" stop-color="#071d43"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1688ff"/>
+      <stop offset="0.5" stop-color="#54b9ff"/>
+      <stop offset="1" stop-color="#1688ff"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M72 0H0V72" fill="none" stroke="#4b9cff" stroke-opacity=".10"/>
+      <circle cx="0" cy="0" r="2.2" fill="#55adff" fill-opacity=".22"/>
+    </pattern>
+    <style>
+      .label{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:18px;letter-spacing:6px;fill:#4db1ff}
+      .title{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:62px;font-weight:750;fill:#f7faff}
+      .sub{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:24px;fill:#b9c9df}
+      .cardTitle{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:18px;letter-spacing:2px;fill:#4db1ff}
+      .value{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:24px;font-weight:650;fill:#f3f7ff}
+      .small{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:18px;fill:#a9bdd8}
+      .footer{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:17px;letter-spacing:4px;fill:#8ba4c5}
+      .iconBox{fill:#081b38;stroke:#147eff;stroke-width:2}
+      .card{fill:#06162f;fill-opacity:.78;stroke:#126bd8;stroke-width:2}
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <ellipse cx="1250" cy="220" rx="420" ry="260" fill="#0b52c9" opacity=".10" filter="url(#soft)">
+    <animate attributeName="opacity" values=".06;.14;.06" dur="6s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Main panel -->
+  <rect x="48" y="74" width="1504" height="752" rx="42" fill="url(#panel)" stroke="#1688ff" stroke-width="2.5"/>
+  <rect x="49" y="75" width="1502" height="750" rx="41" fill="url(#grid)"/>
+
+  <!-- Animated border glow -->
+  <rect x="48" y="74" width="1504" height="752" rx="42" fill="none" stroke="#28a0ff" stroke-width="5" opacity=".12" filter="url(#glow)">
+    <animate attributeName="opacity" values=".08;.35;.08" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Header -->
+  <text x="112" y="160" class="label">CONTACT</text>
+  <path d="M305 151h70" stroke="#35a9ff" stroke-width="3">
+    <animate attributeName="stroke-width" values="2;5;2" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <text x="108" y="244" class="title">Let's Build Something <tspan fill="#38aaff">Great</tspan></text>
+  <text x="110" y="295" class="sub">Have a project, idea, or opportunity? Let's connect and discuss how we can work together.</text>
+
+  <!-- Decorative network -->
+  <g fill="none" stroke="#1886ff" stroke-width="2" opacity=".55">
+    <circle cx="1455" cy="178" r="38"/>
+    <circle cx="1385" cy="258" r="24"/>
+    <circle cx="1520" cy="258" r="24"/>
+    <path d="M1433 206L1398 241M1477 206L1504 240"/>
+    <circle cx="1455" cy="178" r="5" fill="#39a9ff" filter="url(#glow)">
+      <animate attributeName="r" values="4;9;4" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Email large card -->
+  <rect x="108" y="360" width="590" height="320" rx="28" class="card"/>
+  <rect x="142" y="394" width="92" height="92" rx="20" class="iconBox"/>
+  <g fill="none" stroke="#77c4ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="162" y="421" width="52" height="38" rx="5"/>
+    <path d="M163 423l25 21 25-21"/>
+  </g>
+  <text x="262" y="425" class="cardTitle">EMAIL</text>
+  <text x="262" y="465" class="value">sahiblaskar003@gmail.com</text>
+  <line x1="142" y1="555" x2="650" y2="555" stroke="#1c4c83" stroke-width="2"/>
+  <circle cx="164" cy="607" r="9" fill="#45aaff" filter="url(#glow)">
+    <animate attributeName="r" values="7;12;7" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="190" y="614" class="small">Usually replies within 24 hours</text>
+
+  <!-- Website -->
+  <rect x="730" y="360" width="410" height="145" rx="25" class="card"/>
+  <rect x="760" y="391" width="82" height="82" rx="18" class="iconBox"/>
+  <circle cx="801" cy="432" r="24" fill="none" stroke="#83caff" stroke-width="3"/>
+  <path d="M777 432h48M801 408c9 10 9 38 0 48M801 408c-9 10-9 38 0 48" fill="none" stroke="#83caff" stroke-width="3"/>
+  <text x="875" y="420" class="cardTitle">WEBSITE</text>
+  <text x="875" y="462" class="value">webtrusty.vercel.app</text>
+
+  <!-- Location -->
+  <rect x="730" y="535" width="410" height="145" rx="25" class="card"/>
+  <rect x="760" y="566" width="82" height="82" rx="18" class="iconBox"/>
+  <path d="M801 591c-15 0-25 11-25 24 0 18 25 38 25 38s25-20 25-38c0-13-10-24-25-24z" fill="none" stroke="#83caff" stroke-width="3"/>
+  <circle cx="801" cy="615" r="7" fill="none" stroke="#83caff" stroke-width="3"/>
+  <text x="875" y="595" class="cardTitle">LOCATION</text>
+  <text x="875" y="637" class="value">Kolkata, India</text>
+
+  <!-- Current status -->
+  <rect x="1170" y="535" width="335" height="145" rx="25" class="card"/>
+  <rect x="1200" y="566" width="82" height="82" rx="18" class="iconBox"/>
+  <circle cx="1241" cy="607" r="25" fill="none" stroke="#147eff" stroke-width="3"/>
+  <circle cx="1241" cy="607" r="14" fill="#4db1ff" filter="url(#glow)">
+    <animate attributeName="opacity" values=".55;1;.55" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1315" y="595" class="cardTitle">STATUS</text>
+  <text x="1315" y="628" class="value" font-size="19">Available for Freelance</text>
+  <text x="1315" y="658" class="value" font-size="19">&amp; Remote Work</text>
+
+  <!-- Work hours -->
+  <rect x="1170" y="360" width="335" height="145" rx="25" class="card"/>
+  <rect x="1200" y="391" width="82" height="82" rx="18" class="iconBox"/>
+  <circle cx="1241" cy="432" r="25" fill="none" stroke="#83caff" stroke-width="3"/>
+  <path d="M1241 417v17l11 8" fill="none" stroke="#83caff" stroke-width="3" stroke-linecap="round"/>
+  <text x="1315" y="420" class="cardTitle">WORK HOURS</text>
+  <text x="1315" y="453" class="value" font-size="18">Mon – Sat</text>
+  <text x="1315" y="480" class="small">5 PM – 11 PM</text>
+
+  <!-- Divider -->
+  <line x1="108" y1="734" x2="1492" y2="734" stroke="#176bc4" stroke-width="2"/>
+  <circle cx="800" cy="734" r="5" fill="#47b4ff" filter="url(#glow)">
+    <animate attributeName="r" values="4;10;4" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="108" y="785" class="footer">WEBTRUSTY  •  DESIGN  •  DEVELOPMENT  •  AUTOMATION</text>
+
+  <!-- Subtle animated scan -->
+  <rect x="70" y="90" width="1460" height="4" rx="2" fill="#39aaff" opacity=".0">
+    <animate attributeName="y" values="90;805;90" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;.14;0" dur="9s" repeatCount="indefinite"/>
+  </rect>
 </svg>
