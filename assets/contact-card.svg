@@ -85,7 +85,7 @@
     <path d="M163 423l25 21 25-21"/>
   </g>
   <text x="262" y="425" class="cardTitle">EMAIL</text>
-  <text x="262" y="465" class="value">sahiblaskar003@gmail.com</text>
+  <text x="262" y="465" class="value">webtrusty@gmail.com</text>
   <line x1="142" y1="555" x2="650" y2="555" stroke="#1c4c83" stroke-width="2"/>
   <circle cx="164" cy="607" r="9" fill="#45aaff" filter="url(#glow)">
     <animate attributeName="r" values="7;12;7" dur="2s" repeatCount="indefinite"/>
